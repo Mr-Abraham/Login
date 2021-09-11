@@ -95,7 +95,7 @@ transition: 450ms ease;
 transform: translateY(-8px);
 scale: 1.5;
 }
-@media (max-width:500px){
+@media (max-width:700px){
 body{
 height: 100%;
 }
