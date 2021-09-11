@@ -49,8 +49,8 @@ background: hsla(210,5%,95%,.4)
 }
 
 body::before{
-    content: '';
-    background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+content: ''; 
+background-image: linear-gradient( 109.6deg,rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
     position: absolute;
     width: 100%;
     height: 100%;
@@ -70,7 +70,6 @@ body::after{
     right: 0;
 }
 form input[type="submit"]{
-/* background: #333; */
 text-align: center;
 padding: .5em;
 font-size: 1em;
@@ -126,7 +125,9 @@ height: 100%;
 
 body::before{
     content: '';
-    background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to top, #185a9d, #43cea2);  
+background: linear-gradient(to top, #185a9d, #43cea2); 
     position: absolute;
     width: 100%;
     height: 100%;
@@ -139,6 +140,7 @@ body::after{
     content: '';
     background-color: #eec0c6;
     background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+    
     position: absolute;
     width: 100%;
     height: 100%;
@@ -148,7 +150,6 @@ body::after{
     right: 0;
 }
 form input[type="submit"]{
-/* background: #333; */
 text-align: center;
 padding: .5em;
 font-size: 1em;
@@ -162,6 +163,12 @@ box-shadow: 5px 5px 2px #000;
 }
 .sign_up{
 font-size: .9em;
+}
+.creator{
+    padding: 0 1.5em;
+}
+.author{
+    font-size: .8em;
 }
 
 }
